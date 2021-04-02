@@ -7,9 +7,9 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: https://ip243733562.out.azhimalayanvh.com/Firmware/Flyme/16/8.1.5.0/cn/20200824152055/8654496b/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=0e6c2f5c2940ba4417807a8d1361246b7839696b8a410d8a&ali_redirect_ex_tmining_ts=1617373215&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_URL: https://bigota.d.miui.com/V12.0.22.0.RKBCNXM/miui_VENUS_V12.0.22.0.RKBCNXM_21f33f90cc_11.0.zip
   ZIP_NAME: test.zip
-  OS_TYPE: flyme
+  OS_TYPE: miui
   BUILD_TYPE: 'ab'
   REPACK_NAME: tesst_action.zip
   VERSION: 12
