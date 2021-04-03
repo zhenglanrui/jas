@@ -8,7 +8,7 @@ on:
     
 env:              
   ROM_URL: https://bigota.d.miui.com/V12.0.22.0.RKBCNXM/miui_VENUS_V12.0.22.0.RKBCNXM_21f33f90cc_11.0.zip
-  ZIP_NAME: test.zip
+  ZIP_NAME: 2est.zip
   OS_TYPE: miui
   BUILD_TYPE: 'ab'
   REPACK_NAME: miui12.zip
