@@ -11,7 +11,7 @@ env:
   ZIP_NAME: test.zip
   OS_TYPE: miui
   BUILD_TYPE: 'ab'
-  REPACK_NAME: tesst_action.zip
+  REPACK_NAME: miui12.zip
   VERSION: 12
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
