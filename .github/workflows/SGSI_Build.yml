@@ -7,9 +7,9 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: https://bigota.d.miui.com/V12.0.22.0.RKBCNXM/miui_VENUS_V12.0.22.0.RKBCNXM_21f33f90cc_11.0.zip
-  ZIP_NAME: 2est.zip
-  OS_TYPE: miui
+  ROM_URL: https://coloroswebsitefs.coloros.com/coloroswebsite-coloros-com/grs_20210204085747/PCGM00_11_OTA_2140_all_iSlZcNBwgCKR.ozip
+  ZIP_NAME: color.zip
+  OS_TYPE: color
   BUILD_TYPE: 'ab'
   REPACK_NAME: miui12.zip
   VERSION: 12
@@ -39,7 +39,7 @@ jobs:
             cd $GITHUB_WORKSPACE/SGSI-build-tool
             mkdir ./tmp
             cd ./tmp
-            sudo wget $ROM_URL -O $ZIP_NAME && ls
+            sudo wget $ROM_URL -s $ZIP_NAME && ls
             
        - name: Setup Tool Utils...
          if: env.SETUP == 'true'
